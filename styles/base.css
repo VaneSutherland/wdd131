@@ -40,6 +40,7 @@ main {
     grid-template-columns: 2fr 1fr; 
     margin: 10px;
     font-size: 14px;
+    max-width: fit-content;
 
 }
 
