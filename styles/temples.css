@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: #3f8192;
+    display: grid;
+    padding: 30px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+h1 {
+    font-size: 3rem;
+    align-items: flex-start;
+    color: white;
+    margin: 0 ;
+}
+
+nav {
+    display: none;
+}
+
+nav.show{
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    display: block;
+    color: #ffffff;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: rgb(255, 228, 196);
+    color: #000;
+}
+
+
+#hamburger-menu {
+    display: block;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+
+.show-nav a {
+    display: block;
+}
+/* Estilos del main */
+.grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+figure {
+    margin: 0 0;
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Estilos del footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #3f8192;
+    color: #fff;
+}
