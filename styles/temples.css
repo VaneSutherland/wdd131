@@ -22,14 +22,14 @@ h1 {
     font-size: 3rem;
     align-items: flex-start;
     color: white;
-    margin: 0 ;
+    margin: 0;
 }
 
 nav {
     display: none;
 }
 
-nav.show{
+nav.show {
     display: flex;
     flex-direction: column;
 }
@@ -47,6 +47,9 @@ nav a:hover {
     color: #000;
 }
 
+h2 {
+    color: white;
+}
 
 #hamburger-menu {
     display: block;
@@ -62,6 +65,7 @@ nav a:hover {
 .show-nav a {
     display: block;
 }
+
 /* Estilos del main */
 .grid-gallery {
     display: grid;
@@ -73,6 +77,7 @@ figure {
     margin: 0 0;
     text-align: center;
 }
+
 img {
     width: 100%;
     height: auto;
