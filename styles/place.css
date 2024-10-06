@@ -1,4 +1,8 @@
 /* styles/place.css */
+:root {
+    --primary-color: #ffffff;
+    --font-size: 20px;
+  }
 
 /* Estilos generales */
 body {
