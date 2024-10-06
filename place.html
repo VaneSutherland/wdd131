@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Page</title>
+    <meta name="author" content="Vanessa Sutherland">
+    <meta name="description" content="Country Page about Chile">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css" media="screen and (min-width: 768px)">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Chile</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-place-large.webp" media="(min-width: 1000px)">
+                <img src="images/hero-place-small.webp" alt="Scenic view of a place in Chile" width="1500" height="750">
+            </picture>
+        </div>
+        <div class="data">
+            <h2>Data</h2>
+                <ul>
+                    <li><strong>Area:</strong> 756.626 km2</li>
+                    <li><strong>Population:</strong> 19,6 million</li>
+                    <li><strong>Capital:</strong> Santiago</li>
+                    <li><strong>Language:</strong> Spanish</li>
+                    <li><strong>Currency:</strong> Chilean Peso</li>
+                    <li><strong>Time Zone:</strong> GMT-4</li>                        <li><strong>Calling Code:</strong> +56</li>
+                    <li><strong>Internet TLD:</strong> CL</li>
+                </ul>
+        </div>
+
+        <div class="weather">
+            <h2>Weather</h2>
+                <img src="images/icon.svg" alt="cloudy icon" class="icon">
+                <p><strong>Temperature:</strong> 10°C</p>
+                <p><strong>Condition:</strong> Party Cloudy</p>
+                <p><strong>Wind :</strong> 5 km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="windChill">N/A</span></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 🌙 Vanessa Sutherland  ⭐  Chile</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
+

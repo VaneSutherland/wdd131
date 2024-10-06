@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-  }
+}
 
 body {
 	font-family: Roboto, helvetica, sans-serif;
@@ -18,12 +18,13 @@ footer {
 div.banner {
 	border: 1px solid #ffffff;
 	padding: 1rem;
-	background-color: #644d4d;;
+	background-color: #644d4d;
+	;
 	font-weight: 700;
-	   word-break: break-word;
-	  text-align: center;
-	  color:#ffffff;
-  }
+	word-break: break-word;
+	text-align: center;
+	color: #ffffff;
+}
 
 
 h1 {
@@ -33,13 +34,16 @@ h1 {
 main {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 1rem; 
+	grid-gap: 1rem;
 }
+
 section {
-    padding: 1rem;
+	padding: 1rem;
 }
+
 h2 {
-	color: #644d4d;;
+	color: #644d4d;
+	;
 	text-align: left;
 	grid-column: 1/-1;
 }
@@ -49,9 +53,11 @@ article p {
 }
 
 .callout {
-    color: #ffffff;
-    background-color: #644d4d; /* Improved contrast for better accessibility */
-    padding: 1rem; /* Fix padding issue */
+	color: #ffffff;
+	background-color: #644d4d;
+	/* Improved contrast for better accessibility */
+	padding: 1rem;
+	/* Fix padding issue */
 	grid-column: 1/3;
 	padding: 1rem;
 

@@ -1,0 +1,53 @@
+/* Estilos para pantallas más grandes */
+@media screen and (min-width: 768px) {
+    .hero {
+        position: relative; /* Hacer que el contenedor hero sea el padre relativo */
+        margin-bottom: -10px;
+    }
+
+    .weather {
+        background-color: rgb(0, 0, 0, 50%); /* Fondo blanco semitransparente */
+        position: absolute; /* Posicionar el elemento sobre la imagen */
+        bottom: -80px;         /* Espacio desde la parte superior */
+        right: 20px;       /* Espacio desde la derecha */
+        padding: 20px;     /* Relleno alrededor del contenido */
+        border-radius: 8px; /* Esquinas redondeadas */
+        width: 400px;      /* Ancho fijo para el contenedor de datos */
+        box-sizing: border-box; /* Asegurarse de que el padding no afecte el tamaño total */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
+        color: white;
+    }
+
+    .data {
+        background-color: rgb(0, 0, 0, 50%); /* Fondo blanco semitransparente */
+        position: absolute; /* Posicionar el elemento sobre la imagen */
+        top: 25px;      /* Espacio desde la parte inferior */
+        left: 20px;        /* Espacio desde la izquierda */
+        padding: 20px;     /* Relleno alrededor del contenido */
+        border-radius: 8px; /* Esquinas redondeadas */
+        width: 400px;      /* Ancho fijo para el contenedor de clima */
+        box-sizing: border-box; /* Asegurarse de que el padding no afecte el tamaño total */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para profundidad */
+        color: white;
+    }
+
+
+    h2 {
+        font-size: 1.5em; /* Aumentar el tamaño de fuente de los encabezados en pantallas grandes */
+        color: black;
+        background-color: white;
+        margin-left: -30px;
+    }
+    
+    h2::after {
+        content: ' ⛅'; /* Mostrar el ícono del sistema */
+    }
+
+    .icon{
+        display: none;
+    }
+
+}
+
+
+

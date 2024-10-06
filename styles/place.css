@@ -1,0 +1,62 @@
+/* styles/place.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #000ed3; /* Azul */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+h2 {
+    color: black;
+    padding: 10px; /* Espaciado alrededor del encabezado */
+    margin: 0px; /* Eliminar márgenes */
+    text-align: center;
+}
+
+
+/* Estilo para pantallas pequeñas */
+.hero {
+    position: relative; /* Mantener en el flujo del documento */
+}
+
+.hero img {
+    width: 100%; /* La imagen ocupa el ancho completo del contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+.data ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding-left: 0; /* Opcional: Elimina el espaciado izquierdo por defecto */
+}
+
+/* Secciones de datos y clima */
+.data, .weather {
+    background-color: rgb(255, 255, 255); /* Fondo blanco semitransparente */
+    padding: 10px; /* Espaciado alrededor del contenido */
+    margin: 100px; /* Margen entre secciones */
+    color: rgb(0, 0, 0);
+    line-height: 35px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.icon{
+    width: 300px;
+    height: auto;
+}
+
+footer {
+    background: rgb(255, 0, 0); /* Rojo */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
