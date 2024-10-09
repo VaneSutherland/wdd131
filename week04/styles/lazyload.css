@@ -1,0 +1,30 @@
+header, footer {
+    text-align: center;
+
+}
+
+main {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    background: black;
+    animation: fade 15s;
+}
+
+img.lazy-loaded {
+    opacity: 1;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
