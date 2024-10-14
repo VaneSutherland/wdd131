@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Estilos del header */
+header {
+    background-color: #3f8192;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin: 0;
+}
+
+nav {
+    display: none;
+}
+
+nav.show {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    display: block;
+    color: #ffffff;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+nav a:hover {
+    background-color: rgb(255, 228, 196);
+    color: #000;
+}
+
+h2 {
+    color: white;
+}
+
+#hamburger-menu {
+    display: block;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* Estilos de la galería */
+.grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 20px;
+}
+
+.temple-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    justify-content: center;
+    text-align: center;
+}
+
+.temple-card:hover {
+    transform: translateY(-5px);
+}
+
+.temple-card img {
+    width: 100%;
+    border-bottom: 3px solid #3f8192;
+    box-shadow: 0 0 50px gray;
+
+}
+
+.temple-card:hover img {
+    opacity: 0.9;
+}
+
+.temple-card h2 {
+    font-size: 1.5rem;
+    color: #3f8192;
+    margin: 10px 0;
+    padding: 0 15px;
+}
+
+.temple-card p {
+    font-size: 1rem;
+    color: #666;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+
+.temple-card p:last-child {
+    margin-bottom: 20px;
+}
+
+.temple-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.temple-card figcaption {
+    font-size: 1rem;
+    color: #555;
+    padding: 15px;
+}
+
+
+footer {
+    background-color: #3f8192;
+    border-radius: 8px;
+
+}
+
+footer p {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    color: white;
+    padding: 0.5rem 1rem;
+    
+}

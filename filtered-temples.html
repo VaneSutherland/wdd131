@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="author" content="Vanessa Sutherland">
+    <meta name="description" content="Temple Album">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="hamburger-menu">☰</button>
+        <nav class="navigation">
+            <a id="home" href="#">Home</a>
+            <a id="old-temples" href="#">Old</a>
+            <a id="new-temples" href="#">New</a>
+            <a id="large-temples" href="#">Large</a>
+            <a id="small-temples" href="#">Small</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="temple-container"></div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Vanessa Sutherland</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+@media (min-width: 740px) {
+    /* Header en pantallas grandes */
+    header #hamburger-menu {
+        display: none; /* El botón de hamburguesa desaparece en pantallas grandes */
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navigation a {
+        flex: 1;
+        text-align: center;
+        padding: 1rem;
+        font-size: 18px;
+        color:white;
+
+    }
+
+    /* Galería con columnas adaptables */
+    .grid-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    }
+
+    /* Estilos para las figuras de las tarjetas */
+    figure {
+        margin: 0;
+    }
+
+    #temple-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+
+    .temple-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin-top: 1rem;
+    }
+
+
+    .temple-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    .temple-card img {
+        transition: opacity 0.3s;
+        margin: 1rem 1rem;
+        width: 350px;
+    }
+
+}
+
