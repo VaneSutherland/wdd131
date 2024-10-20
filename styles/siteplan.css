@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    /* Texto en gris oscuro */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilos de los encabezados */
+h1,
+h2,
+h3 {
+    color: #F78E1E;
+    /* Naranjo para los encabezados */
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1px;
+    margin-top: 30px;
+}
+
+header {
+    background-color: #4e4e4e;
+    padding: 2rem;
+}
