@@ -1,0 +1,96 @@
+@media (min-width: 740px) {
+
+    /*CSS for Home*/
+    header {
+        flex-direction: row;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .nav-header {
+        flex-grow: 1;
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .nav-header a {
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+
+    #hamburger-menu {
+        display: none;
+
+    }
+
+    main {
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .left-row {
+        position: relative;
+    }
+
+
+    .team {
+        max-width: 1350px;
+    }
+
+    .team-text {
+        top: 80%;
+        left: 50%;
+        padding: 30px;
+        width: 80%;
+    }
+
+
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .right-row {
+        grid-template-rows: repeat(3, 1fr);
+        height: 100%;
+        border-left: 2px solid gray;
+        padding-left: 20px;
+
+    }
+
+    .right-row section {
+        padding: 40px 20px;
+        margin-bottom: 20px;
+    }
+
+
+    /*CSS for Team*/
+
+
+
+    /*CSS for Form*/
+
+
+
+    .new-idea-form,
+    .ideas-container {
+        margin: 50px 300px ;
+        padding: 30px;
+    }
+
+    #idea-form input,
+    #idea-form textarea,
+    #idea-form button {
+        width: 100%;
+        margin: 15px 305px;
+        padding: 25px; 
+    }
+
+    .idea,
+    .submitted-idea {
+        padding: 40px;
+        margin: 50px 10px;
+    }
+}
